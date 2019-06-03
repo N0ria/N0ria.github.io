@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Maëlys</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Style.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+</head>
+
+<div class="FondP0">
+  <body>
+
+  <br>
+  <div class="DivHello">
+
+    <div class="Header Gauche">
+      <p class="Hello">Bienvenue sur Mon WebFolio
+    </div>
+
+  </div>
+
+  <br><br>
+  <div class="DivDescription">
+    <p class="Description">Je suis Livertout Maëlys, je suis née le 17 septembre 2003 à Poitiers.
+      <br>Je suis actuellement élève au LP2i (Lycée Pilote Innovant Internationnal).
+      <br>Si vous souhaitez me contacter : xxxxxx@gmail.com .
+    </p>
+
+  </div>
+
+
+  <div class="wrap">
+    <button onclick="prev()">&laquo;</button>
+    <div class="scroller">
+      <ul class="items">
+        <A href="Mon parcours.html"><li class=" item"
+          style="background-image:url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);">Mon
+          parcours</li></A>
+        <A href="Mes activités extra-scolaires.html"><li class="item"
+          style="background-image:url(https://images.unsplash.com/photo-1532135468830-e51699205b70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);">Mes passions</li></A>
+        <A href="page2.html">
+          <li class="item" style="background-image:url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80);">Mes voyages</li></A>
+        <li class="item"
+          style="background-image:url(https://farm3.staticflickr.com/2914/14185397280_e51c40b1df_b.jpg);">Mes colonies</li>
+      </ul>
+    </div>
+    <button onclick="next()">&raquo;</button>
+  </div>
+
+
+
+  <script src="test/js/index.js"></script>
+
+  <script>
+    var d = document;
+    var wrap = d.querySelector('.wrap');
+    var items = d.querySelector('.items');
+    var itemCount = d.querySelectorAll('.item').length;
+    var scroller = d.querySelector('.scroller');
+    var pos = 0;
+    var transform = Modernizr.prefixed('transform');
+
+    function setTransform() {
+      items.style[transform] = 'translate3d(' + (-pos * items.offsetWidth) + 'px,0,0)';
+    }
+
+    function prev() {
+      pos = Math.max(pos - 1, 0);
+      if(pos == 0){
+        pos = document.getElementsByClassName("item").length-1
+      }
+      setTransform();
+      
+    }
+
+    function next() {
+      pos = Math.min(pos + 1, itemCount - 1);
+      if(pos == document.getElementsByClassName("item").length-1){
+        pos = 0
+      }
+      setTransform();
+      
+    }
+
+    window.addEventListener('resize', setTransform);
+  </script>
+
+<div class="DivRemerciement">
+    <p class="Remerciement"> Je souhaite remercier Isaac Menard pour m'avoir aidé à coder mon site.
+    </p></div>
+
+<br>     
+
+</body></div>
+
+</html>

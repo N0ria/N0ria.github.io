@@ -1,0 +1,292 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
+    background-size:100%;
+    height: 100%;
+}
+
+body,div,p,h1{
+  padding: 0px;
+    margin: 0%;
+}
+
+.FondP0{
+  background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
+}
+
+.FondP3{
+  background-image: url("https://images.unsplash.com/photo-1532135468830-e51699205b70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");
+}
+
+.Hello{
+    font-size: 50px;
+    color : black;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    position: relative;
+}
+.MyTravel{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    width:  300px;
+    height: auto;
+}
+.imgRéunion2{
+    width: 126.5px;
+    height: auto;
+}
+.Welcome{
+    font-family: 'Poppins', sans-serif;
+}
+.Page2{
+    font-family: 'Poppins', sans-serif;
+}
+.IleDeLaRéunion{
+    font-family: 'Poppins', sans-serif;
+}
+.Page1{
+    font-family: 'Poppins', sans-serif;
+}
+.Description{
+    font-family: 'Poppins', sans-serif;
+}
+
+.MonParcours{
+  font-family : 'Poppins', sans-serif;
+}
+
+.Remerciement{
+  font-family : 'Poppins', sans-serif;
+}
+
+.MesActivités{
+  font-family : 'Poppins', sans-serif;
+}
+
+.MesPassions{
+  font-size: 50px;
+  color : black;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+
+
+.DivVoyages{
+    background-color: teal;
+    height: 500px;
+    padding : 20px;
+}
+.DivMesVoyages{
+    background-color: ivory;
+    top: 0px;
+    text-align: center;
+}
+.DivPage1{
+    background-color: ivory;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+.DivDescription{
+    background-color: ivory;
+    width: 700px;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.DivRéunion{
+    background-color: papayawhip;
+    width: 570px;
+    padding : 1px;
+}
+.DivHello{
+    background-color: ivory;
+    top: 0px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 200%;
+    margin: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.DivRemerciement{
+  background-color: ivory;
+  width: 700px;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.DivMesPassions{
+  background-color: ivory;
+  top: 0px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 200%;
+  margin: 0%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.DivMesActivités1{
+  background-color: ivory;
+  width: 500px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  float: right;
+  }
+
+.DivMesActivités2{
+  background-color: ivory;
+  width: 300px;
+  text-align: center;
+  position: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  float: left;
+}
+
+.DivMesActivités3{
+  background-color:  ivory;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+}
+
+.DivMesActivités4{
+  background-color:  ivory;
+  width: 900px;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+
+
+.Header{
+    width: 49%;
+    display: inline-block;
+    text-align: left;
+}
+.Gauche{
+    width: 40%;
+    display: inline;
+}
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font: 18px 'Noto Sans', Arial, sans-serif;
+  background: #333;
+}
+
+
+h1{
+  text-align: center;
+  color: #f0f0f0;
+  margin-bottom: 1em;
+}
+
+.wrap{
+  display: flex;
+  align-items: stretch;
+  width: 90%;
+  margin: auto;
+
+}
+
+button{
+  width: 30px;
+  border: none;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-align: center;
+  outline: none;
+  opacity: 0.5;
+  transition: opacity 300ms ease-out;
+  
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.scroller{
+  flex: 1;
+  overflow: hidden;
+}
+
+.items{
+  
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 0;
+  transition: transform 1s ease-in-out;
+
+}
+
+.item{
+  padding: 30px 20px;
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  font-size: 25px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-weight: bold;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  border: solid ivory 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  &:nth-child(2) {
+    color: #fff;
+  }
+}
