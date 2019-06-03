@@ -9,8 +9,20 @@ body,div,p,h1{
     margin: 0%;
 }
 
+a{
+  color:black;
+}
+
+a:hover{
+  color:black;
+}
+
 .FondP0{
   background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
+}
+
+.FondP2{
+  background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80");
 }
 
 .FondP3{
@@ -24,27 +36,19 @@ body,div,p,h1{
     text-align: center;
     position: relative;
 }
+
 .MyTravel{
-    font-size: 30px;
-    font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color : black;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  position: relative;
 }
-img{
-    width:  300px;
-    height: auto;
-}
-.imgRéunion2{
-    width: 126.5px;
-    height: auto;
-}
+
 .Welcome{
     font-family: 'Poppins', sans-serif;
 }
-.Page2{
-    font-family: 'Poppins', sans-serif;
-}
-.IleDeLaRéunion{
-    font-family: 'Poppins', sans-serif;
-}
+
 .Page1{
     font-family: 'Poppins', sans-serif;
 }
@@ -72,18 +76,6 @@ img{
   position: relative;
 }
 
-
-
-.DivVoyages{
-    background-color: teal;
-    height: 500px;
-    padding : 20px;
-}
-.DivMesVoyages{
-    background-color: ivory;
-    top: 0px;
-    text-align: center;
-}
 .DivPage1{
     background-color: ivory;
     width: 300px;
@@ -102,11 +94,19 @@ img{
     border-radius: 20px;
 }
 
-.DivRéunion{
-    background-color: papayawhip;
-    width: 570px;
-    padding : 1px;
+.DivMesVoyages{
+  background-color: ivory;
+  top: 0px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 200%;
+  margin: 0%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
 }
+
 .DivHello{
     background-color: ivory;
     top: 0px;
@@ -150,10 +150,12 @@ img{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
   float: right;
+  margin-right: 20px;
   }
 
 .DivMesActivités2{
@@ -167,12 +169,19 @@ img{
   margin-right: auto;
   border-radius: 20px;
   float: left;
+  margin-left: 20px; 
 }
-
+.centrage{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;;
+}
 .DivMesActivités3{
   background-color:  ivory;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   text-align: center;
   position: relative;
   padding-top: 10px;
@@ -180,6 +189,7 @@ img{
   margin-left: auto;
   margin-right: auto;
   border-radius: 200px;
+
 }
 
 .DivMesActivités4{
@@ -286,7 +296,5 @@ button{
   border: solid ivory 5px;
   margin-top: 30px;
   margin-bottom: 30px;
-  &:nth-child(2) {
-    color: #fff;
-  }
 }
+
